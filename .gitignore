@@ -1,0 +1,29 @@
+# 秘密文件一律不入库（安全拦截层，命中即静默忽略；发布器必须核对文件数，发现拦截要报 BLOCKED）
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+*credential*
+*password*
+*secret*
+*.token
+auth.json
+.npmrc
+.netrc
+.git-credentials
+client_secret*.json
+service-account*.json
+
+# 杂物
+__pycache__/
+node_modules/
+*.zip
+*.log
+.DS_Store
+Thumbs.db
