@@ -64,6 +64,7 @@ gh api repos/li2810081/rick_skills/contents/README.md --jq '.content' | base64 -
 
 ## 错误处理
 
+- push 因网络/SSH 连接中断失败（如 “Connection closed by UNKNOWN port”）：不改配置，原样重试一次；仍失败按 BLOCKED 报告。
 - pull 冲突或克隆损坏：BLOCKED，保留现场报告，不要自行 `reset --hard`。
 - 禁止 force push、改写历史、操作他人仓库。
 - `gh` 未登录：报告 BLOCKED，让用户先 `gh auth login`，不要代做。
