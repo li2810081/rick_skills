@@ -17,5 +17,6 @@ Rick 的个人 Agent Skills 公共仓库（personal, public agent skills）。
 | --- | --- | --- |
 | rick-skill-pub | 把任意技能通过安全门禁发布到本仓库的发布器 | [skills/rick-skill-pub](skills/rick-skill-pub/) |
 | rick-dev | 个人项目标准开发与发布流程：三道闸门、双发布路线（Docker/exe）、验收清单，附填空式工作手册模板 | [skills/rick-dev](skills/rick-dev/) |
+| nsis-pack | Electron NSIS 安装包打包发布仪式：测试闸→版本同步→tag→干净构建→冒烟→记录→回滚，附 7 条实战踩坑（产物在仓库外、PyInstaller 写法、exe 属性版本、venv 依赖漂移等） | [skills/nsis-pack](skills/nsis-pack/) |
 
 > 索引由 `rick-skill-pub` 在每次发布时自动维护。
