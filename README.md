@@ -16,7 +16,7 @@ Rick 的个人 Agent Skills 公共仓库（personal, public agent skills）。
 | 技能 | 用途 | 路径 |
 | --- | --- | --- |
 | rick-skill-pub | 把任意技能通过安全门禁发布到本仓库的发布器 | [skills/rick-skill-pub](skills/rick-skill-pub/) |
-| rick-dev | 个人项目标准开发与发布流程：三道闸门、双发布路线（Docker/exe）、验收清单，附填空式工作手册模板 | [skills/rick-dev](skills/rick-dev/) |
+| rick-dev | 个人项目标准开发与发布流程：三道闸门、按形态发布路线（Docker/exe/脚本·静态前端）、风险分层与证据卡、Web UI 设计双检与重构路由，附填空式工作手册模板 | [skills/rick-dev](skills/rick-dev/) |
 | nsis-pack | NSIS 封包能力：把任意 Windows 应用构建产物（来源不限）封装成专业安装包——安装/升级覆盖/卸载/快捷方式/静默安装/版本元数据，模板真机验证全链路通过，附发布仪式与 13 条实战踩坑 | [skills/nsis-pack](skills/nsis-pack/) |
 
 > 索引由 `rick-skill-pub` 在每次发布时自动维护。
