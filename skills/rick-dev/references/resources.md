@@ -16,6 +16,15 @@
 | --- | --- | --- |
 | [Cookiecutter Django](https://github.com/cookiecutter/cookiecutter-django) | Django 项目接入生产配置，或比较已有生产模板的配套 | 开发/生产配置、Compose、测试及可选任务和错误监控集成；不因此要求项目采用 Django |
 | [Agent Engineer](https://github.com/addyosmani/agent-engineer) | 改善 AI 接手体验及项目指令 | 任务上下文、验证与评审方法，以及 [AGENTS.md 写法](https://github.com/addyosmani/agent-engineer/tree/main/15-agents-md)；保留对本项目有用的事实，避免堆积泛化指令 |
+| [Spec Kit](https://github.com/github/spec-kit) | 复杂需求规格化、任务拆解、跨文档一致性检查及实现后补漏 | 按需调用上游技能；接入步骤见 [Issue 驱动开发](issue-driven-development.md)。复用项目已选 BD 或 Kanban 为执行状态依据，保留 rick-dev 测试与发布门槛 |
+
+## GSD Core：只取接入与恢复方法
+
+已对照 [首次项目](https://github.com/open-gsd/gsd-core/blob/next/docs/tutorials/your-first-project.md)、[已有项目接入](https://github.com/open-gsd/gsd-core/blob/next/docs/tutorials/onboarding-an-existing-codebase.md)、[交付](https://github.com/open-gsd/gsd-core/blob/next/gsd-core/workflows/ship.md)、[暂停](https://github.com/open-gsd/gsd-core/blob/next/gsd-core/workflows/pause-work.md)与[恢复](https://github.com/open-gsd/gsd-core/blob/next/gsd-core/workflows/resume-project.md)。吸收部分初始化续接、现场核对及避免重复 PR/外部任务的方法，已纳入主文件和使用指南；没有安装 GSD、复制其实现或引入 `.planning/` 状态体系。不采用跳过权限、自动 WIP 提交或固定多子代理；不以文档声称证明成本或运行效果。
+
+## Git 与多人 / 多 Agent 协作
+
+按需阅读 [Git 协作参考](git-collaboration.md)：GitHub Flow、Git 自身工作流、FastAPI 全栈模板真实测试配置及 GitHub 合并队列的采用边界。重点是小而完整的提交、短期分支收尾、组合版本验证和可复查报告，不强制引入队列或自动部署。
 
 ## 采用方式
 
